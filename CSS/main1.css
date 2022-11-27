@@ -1,0 +1,72 @@
+body{
+    background-color: blue;
+}
+    @media  (max-width: 900px) {
+        body{
+            background-color: red;
+        }
+        .card {
+            float: left;
+            background-color: white;
+            width: 20%;
+            border: 10px solid black;
+            color: #000;
+            display:inline-block ;
+            text-align: center;
+            position: initial;
+            margin-left: 100px;
+            position: initial;
+        }
+        .container {
+            margin-left: 100px;
+            text-align: center;
+            display: flex;
+            font-size: 100px;
+            float: left;
+            background-color: white;
+            width: 20%;
+            border: 10px solid black;
+            color: white;
+            display:inline-block ;
+        }
+        .img{
+            font-size: 100px;
+        }
+    } 
+    
+    .card {
+        float: left;
+        background-color: white;
+        padding: 110px;
+        width: 20%;
+        border: 10px solid black;
+        color: black;
+        display:inline-block ;
+        text-align: center;
+        position: initial;
+        margin-left: 100px;
+        position: initial;
+    }
+    .container {
+        text-align: center;
+        display: flex;
+        font-size: 13px;
+        float: left;
+        padding: 110px;
+        background-color: white;
+        height:52.5%;
+        width: 20%;
+        border: 10px solid black;
+        color: black;
+        display:inline-block ;
+    }
+    .container2 {
+        float: left;
+        padding: 110px;
+        text-align: center;
+        margin-top: 100px;
+        margin-left:500px;
+        color: #000;
+        display:block ;;
+    }
+

@@ -1,0 +1,32 @@
+body{
+    background-color: blue;
+}
+@media  (max-width: 900px) {
+    body{
+        background-color: red;
+    }
+} 
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    background-color: white;
+    padding: 70px;
+    width: 15%;
+    border: 10px solid black;
+    color: black;
+    display:inline-block ;
+    text-align: center;
+    position: initial;
+    margin-left: 100px;
+    align-items: center;
+    font-size: 30px;
+}
+
+.container3{
+    text-align: center;
+    margin-top: 10px;
+    margin-left:10px;
+    color: #000;
+    display:block ;
+}

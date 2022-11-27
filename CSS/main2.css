@@ -1,0 +1,46 @@
+body{
+    background-color: blue;
+}
+@media  (max-width: 900px) {
+    body{
+        background-color: red;
+    }
+} 
+
+.card {
+    margin-left: 100px;
+    background-color: white;
+    padding: 70px;
+    height: 70%;
+    width: 20%;
+    border: 5px solid black;
+    color: white;
+    text-align: center;
+    position: initial;
+}
+.container {
+    text-align: center;
+    width: 95%;
+    border: 5px solid black;
+    color: black;
+    display:inline-block ;
+    text-align: center;
+    position: initial;
+}
+.container2 {
+    margin-left: 100px;
+    text-align: center;
+    width: 95%;
+    border: 10px solid black;
+    color: black;
+    display:inline-block ;
+    text-align: center;
+    position: initial;
+}
+.container3 {
+    text-align: center;
+    margin-top: 100px;
+    margin-left:10px;
+    color: #000;
+    display:block ;
+}
